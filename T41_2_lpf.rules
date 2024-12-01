@@ -1,0 +1,89 @@
+
+(rules PCB t41_2_lpf_board_orthog
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1403)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clearance 200.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 200.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+    (clearance 200.0 (type kicad))
+  )
+  (padstack "Via[0-1]_1000:500_um"
+    (shape
+      (circle F.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1000.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_1000:500_um" "Via[0-1]_1000:500_um" default
+  )
+  (via 
+    "Via[0-1]_1000:500_um-kicad_default" "Via[0-1]_1000:500_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_1000:500_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_1000:500_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND "/12V_FIL" "Net-(C3-Pad2)" "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(C5-Pad1)" "/3_3V_FIL" "Net-(Q2-G)"
+    "Net-(Q3-G)" "Net-(Q4-G)" "Net-(Q5-G)" "Net-(Q6-G)" "Net-(Q2-D)" "Net-(Q3-D)" "Net-(Q4-D)" "Net-(Q5-D)"
+    "/10M_ON" "/15M_ON" "/20M_ON" "/40M_ON" "/80M_ON" /TXRX "Net-(U1-IN_1)" "Net-(U1-OUT_1)"
+    "Net-(U2-OUT_1)" "Net-(U2-IN_1)" "Net-(U3-IN_1)" "Net-(U3-OUT_1)" "Net-(U4-IN_1)" "Net-(U4-OUT_1)" "Net-(U5-OUT_1)" "Net-(U5-IN_1)"
+    "Net-(C14-Pad2)" "Net-(C14-Pad1)" "unconnected-(RL1-Pad6)" "unconnected-(RL1-Pad5)" "unconnected-(RL2-Pad5)" "unconnected-(U12-Pad13)" /SDA "unconnected-(J4-Pin_1-Pad1)"
+    "unconnected-(J4-Pin_10-Pad10)" /12VIN "/3_3V" "unconnected-(J4-Pin_9-Pad9)" "unconnected-(J4-Pin_2-Pad2)" /SCL "/12V_IN" "/3_3V_IN"
+    "unconnected-(U13-P7-Pad12)" "unconnected-(U13-P6-Pad11)" "unconnected-(U13-~{INT}-Pad13)" "unconnected-(RL2-Pad6)" "Net-(RL2-Pad8)" "unconnected-(RL3-Pad6)" "/12V_RELAY" "Net-(Q1-G)"
+    "Net-(Q1-D)" "unconnected-(RL3-Pad5)" "unconnected-(RL4-Pad5)" "unconnected-(RL5-Pad6)" "unconnected-(RL5-Pad5)" "unconnected-(RL6-Pad6)" "unconnected-(RL6-Pad5)" "unconnected-(RL7-Pad5)"
+    "unconnected-(RL7-Pad6)" "unconnected-(RL8-Pad5)" "unconnected-(RL8-Pad6)" "unconnected-(RL9-Pad4)" "unconnected-(RL9-Pad5)" "unconnected-(RL9-Pad2)" "unconnected-(RL9-Pad6)" "unconnected-(RL9-Pad3)"
+    "unconnected-(RL10-Pad7)" "unconnected-(RL10-Pad8)" "unconnected-(RL10-Pad5)" "unconnected-(RL10-Pad9)" "unconnected-(RL10-Pad6)" "Net-(RL1-Pad3)" "Net-(RL3-Pad3)" "Net-(RL4-Pad8)"
+    "unconnected-(RL4-Pad6)" "Net-(RL5-Pad3)" "Net-(RL6-Pad8)" "Net-(RL7-Pad3)" "Net-(RL10-Pad4)" "Net-(J1-Pad2)" "Net-(Q6-D)" "Net-(R10-Pad2)"
+    "Net-(R9-Pad2)" "unconnected-(RL11-Pad5)" "unconnected-(RL11-Pad6)" "unconnected-(RL11-Pad9)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

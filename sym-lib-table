@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LowPassFilterPlugIn")(type "KiCad")(uri "${KIPRJMOD}/LowPassFilterPlugIn.kicad_sym")(options "")(descr ""))
+  (lib (name "Relay_LPF")(type "KiCad")(uri "/home/raven/gitrepos/pcb/downloaded_parts/KiCADv6/Relay_LPF.kicad_sym")(options "")(descr ""))
+  (lib (name "LairdFerrBead")(type "KiCad")(uri "/home/raven/gitrepos/pcb/downloaded_parts/28F0121_0SR_10/28F0121-0SR-10.kicad_sym")(options "")(descr ""))
+  (lib (name "TQ2-12V")(type "KiCad")(uri "${KIPRJMOD}/library/KiCADv6/TQ2-12V.kicad_sym")(options "")(descr ""))
+)
