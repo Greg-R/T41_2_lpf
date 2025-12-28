@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7036ee6c-d172-45ee-8bd0-3b3919ced930")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,10 +82,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -90,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -139,10 +143,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Q_NMOS_GSD"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -203,18 +210,6 @@
 			(symbol "Q_NMOS_GSD_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
@@ -227,7 +222,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -251,34 +258,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -309,6 +292,63 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -333,39 +373,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "Q_NMOS_GSD_1_1"
 				(pin input line
@@ -379,24 +386,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -422,12 +411,35 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -497,7 +509,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -509,7 +521,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -556,9 +568,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TQ2-12V:Panasonic_Relay_TQV-12"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -615,20 +630,8 @@
 			)
 			(symbol "Panasonic_Relay_TQV-12_1_1"
 				(arc
-					(start -1.905 0.635)
+					(start -2.54 0)
 					(mid -2.354 0.449)
-					(end -2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 0)
-					(mid -1.456 0.449)
 					(end -1.905 0.635)
 					(stroke
 						(width 0)
@@ -639,8 +642,8 @@
 					)
 				)
 				(arc
-					(start -0.635 0.635)
-					(mid -1.084 0.449)
+					(start -1.905 0.635)
+					(mid -1.456 0.449)
 					(end -1.27 0)
 					(stroke
 						(width 0)
@@ -651,8 +654,8 @@
 					)
 				)
 				(arc
-					(start 0 0)
-					(mid -0.186 0.449)
+					(start -1.27 0)
+					(mid -1.084 0.449)
 					(end -0.635 0.635)
 					(stroke
 						(width 0)
@@ -663,8 +666,8 @@
 					)
 				)
 				(arc
-					(start 0.635 0.635)
-					(mid 0.186 0.449)
+					(start -0.635 0.635)
+					(mid -0.186 0.449)
 					(end 0 0)
 					(stroke
 						(width 0)
@@ -675,8 +678,8 @@
 					)
 				)
 				(arc
-					(start 1.27 0)
-					(mid 1.084 0.449)
+					(start 0 0)
+					(mid 0.186 0.449)
 					(end 0.635 0.635)
 					(stroke
 						(width 0)
@@ -687,8 +690,8 @@
 					)
 				)
 				(arc
-					(start 1.905 0.635)
-					(mid 1.456 0.449)
+					(start 0.635 0.635)
+					(mid 1.084 0.449)
 					(end 1.27 0)
 					(stroke
 						(width 0)
@@ -699,9 +702,21 @@
 					)
 				)
 				(arc
-					(start 2.54 0)
-					(mid 2.354 0.449)
+					(start 1.27 0)
+					(mid 1.456 0.449)
 					(end 1.905 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 0.635)
+					(mid 2.354 0.449)
+					(end 2.54 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -750,7 +765,7 @@
 			(symbol "Panasonic_Relay_TQV-12_2_1"
 				(polyline
 					(pts
-						(xy -3.81 -1.27) (xy -1.27 -1.27)
+						(xy -3.81 3.81) (xy -1.27 3.81)
 					)
 					(stroke
 						(width 0)
@@ -774,7 +789,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 3.81) (xy -1.27 3.81)
+						(xy -3.81 -1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -786,19 +801,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -3.81) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 1.27 -1.27)
+						(xy 3.81 3.81) (xy 1.27 3.81)
 					)
 					(stroke
 						(width 0)
@@ -822,7 +825,19 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 3.81) (xy 1.27 3.81)
+						(xy 3.81 -1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.81) (xy 1.27 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -905,7 +920,7 @@
 					)
 				)
 				(pin input line
-					(at 6.35 -3.81 180)
+					(at 6.35 3.81 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -914,25 +929,7 @@
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 -1.27 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -959,7 +956,7 @@
 					)
 				)
 				(pin input line
-					(at 6.35 3.81 180)
+					(at 6.35 -1.27 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -968,7 +965,25 @@
 							)
 						)
 					)
-					(number "9"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -977,12 +992,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1073,7 +1093,44 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "RELAYS ARE POLARIZED!"
+		(exclude_from_sim no)
+		(at 156.21 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5b6e6dfa-1417-45a9-b1c8-06def43d1c62")
+	)
+	(text "BANDSWITCH RELAYS"
+		(exclude_from_sim no)
+		(at 157.48 52.07 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "96ec60e5-f6c1-4d01-bda8-ba84cd241712")
+	)
+	(text "PIN 1 IS POSITIVE"
+		(exclude_from_sim no)
+		(at 156.21 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "accde6d3-3061-45ce-a52b-459043e106be")
 	)
 	(junction
 		(at 93.98 114.3)
@@ -2873,45 +2930,8 @@
 		)
 		(uuid "fb937bb9-5fc9-4b58-85ea-f59fec4897a3")
 	)
-	(text "RELAYS ARE POLARIZED!"
-		(exclude_from_sim no)
-		(at 156.21 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "5b6e6dfa-1417-45a9-b1c8-06def43d1c62")
-	)
-	(text "BANDSWITCH RELAYS"
-		(exclude_from_sim no)
-		(at 157.48 52.07 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-		)
-		(uuid "96ec60e5-f6c1-4d01-bda8-ba84cd241712")
-	)
-	(text "PIN 1 IS POSITIVE"
-		(exclude_from_sim no)
-		(at 156.21 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "accde6d3-3061-45ce-a52b-459043e106be")
-	)
 	(label "GND"
 		(at 139.7 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2922,7 +2942,6 @@
 	)
 	(label "GND"
 		(at 105.41 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2933,7 +2952,6 @@
 	)
 	(label "GND"
 		(at 69.85 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2944,7 +2962,6 @@
 	)
 	(label "GND"
 		(at 69.85 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2955,7 +2972,6 @@
 	)
 	(label "12V_RELAY"
 		(at 128.27 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2966,7 +2982,6 @@
 	)
 	(label "12V_RELAY"
 		(at 59.69 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2977,7 +2992,6 @@
 	)
 	(label "40M_ON"
 		(at 80.01 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2990,7 +3004,6 @@
 	)
 	(label "15M_ON"
 		(at 80.01 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3003,7 +3016,6 @@
 	)
 	(label "GND"
 		(at 105.41 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3014,7 +3026,6 @@
 	)
 	(label "GND"
 		(at 105.41 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3025,7 +3036,6 @@
 	)
 	(label "GND"
 		(at 105.41 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3036,7 +3046,6 @@
 	)
 	(label "20M_ON"
 		(at 80.01 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3049,7 +3058,6 @@
 	)
 	(label "GND"
 		(at 175.26 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3060,7 +3068,6 @@
 	)
 	(label "GND"
 		(at 69.85 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3071,7 +3078,6 @@
 	)
 	(label "80M_ON"
 		(at 149.86 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3084,7 +3090,6 @@
 	)
 	(label "GND"
 		(at 69.85 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3095,7 +3100,6 @@
 	)
 	(label "10M_ON"
 		(at 80.01 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3109,7 +3113,6 @@
 	(hierarchical_label "80M_ON"
 		(shape input)
 		(at 137.16 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3121,7 +3124,6 @@
 	(hierarchical_label "15M_ON"
 		(shape input)
 		(at 67.31 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3133,7 +3135,6 @@
 	(hierarchical_label "20M_ON"
 		(shape input)
 		(at 67.31 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3145,7 +3146,6 @@
 	(hierarchical_label "10M_ON"
 		(shape input)
 		(at 67.31 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3157,7 +3157,6 @@
 	(hierarchical_label "12V_RELAY"
 		(shape input)
 		(at 50.8 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3169,7 +3168,6 @@
 	(hierarchical_label "40M_ON"
 		(shape input)
 		(at 67.31 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
