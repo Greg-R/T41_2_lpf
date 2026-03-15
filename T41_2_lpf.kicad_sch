@@ -13926,6 +13926,14 @@
 				(justify left top)
 			)
 		)
+		(property "C_1" "3.14pF"
+			(at 172.72 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "Output" output
 			(at 207.01 31.75 0)
 			(uuid "e5b35b66-70e1-40ef-8057-a92977adec34")
@@ -14274,6 +14282,14 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "C_1" "6.28pF"
+			(at 172.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "Output" output

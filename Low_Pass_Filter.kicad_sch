@@ -785,7 +785,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "${C_1}"
 			(at 123.19 93.98 0)
 			(effects
 				(font
