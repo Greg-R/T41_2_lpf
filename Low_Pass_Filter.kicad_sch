@@ -743,7 +743,7 @@
 			(uuid "0547ed35-a47d-4df4-8b54-2c8236133680")
 		)
 		(instances
-			(project "t41_2_lpf_board_orthog"
+			(project "T41_2_lpf"
 				(path "/5fc700c6-272f-41b7-8650-23a96fb06ce8/25f7731c-bad8-4554-9b01-13138334dc1b"
 					(reference "L15")
 					(unit 1)
@@ -785,7 +785,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "${C_1}"
+		(property "Value" "${C1}"
 			(at 123.19 93.98 0)
 			(effects
 				(font
@@ -828,7 +828,7 @@
 			(uuid "e2e0658c-46b1-4e39-94e0-5a4c3051974b")
 		)
 		(instances
-			(project "t41_2_lpf_board_orthog"
+			(project "T41_2_lpf"
 				(path "/5fc700c6-272f-41b7-8650-23a96fb06ce8/25f7731c-bad8-4554-9b01-13138334dc1b"
 					(reference "C57")
 					(unit 1)
@@ -912,7 +912,7 @@
 			(uuid "c4a44bda-b510-4ca4-b188-9843bdad66dc")
 		)
 		(instances
-			(project "t41_2_lpf_board_orthog"
+			(project "T41_2_lpf"
 				(path "/5fc700c6-272f-41b7-8650-23a96fb06ce8/25f7731c-bad8-4554-9b01-13138334dc1b"
 					(reference "L16")
 					(unit 1)
@@ -996,7 +996,7 @@
 			(uuid "18495b0b-02fb-43fb-a4f3-34b2f9ed7639")
 		)
 		(instances
-			(project "t41_2_lpf_board_orthog"
+			(project "T41_2_lpf"
 				(path "/5fc700c6-272f-41b7-8650-23a96fb06ce8/25f7731c-bad8-4554-9b01-13138334dc1b"
 					(reference "L17")
 					(unit 1)
@@ -1077,7 +1077,7 @@
 			(uuid "90d9426a-0850-4483-9110-830571fe24be")
 		)
 		(instances
-			(project "t41_2_lpf_board_orthog"
+			(project "T41_2_lpf"
 				(path "/5fc700c6-272f-41b7-8650-23a96fb06ce8/25f7731c-bad8-4554-9b01-13138334dc1b"
 					(reference "#PWR049")
 					(unit 1)
@@ -1120,7 +1120,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1200pF"
+		(property "Value" "${C3}"
 			(at 146.05 93.9735 0)
 			(effects
 				(font
@@ -1163,7 +1163,7 @@
 			(uuid "46a7b096-8fce-475d-80a7-374c833af786")
 		)
 		(instances
-			(project "t41_2_lpf_board_orthog"
+			(project "T41_2_lpf"
 				(path "/5fc700c6-272f-41b7-8650-23a96fb06ce8/25f7731c-bad8-4554-9b01-13138334dc1b"
 					(reference "C59")
 					(unit 1)
@@ -1206,7 +1206,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "${C4}"
 			(at 157.48 93.9735 0)
 			(effects
 				(font
@@ -1249,7 +1249,7 @@
 			(uuid "1c4db537-3e90-4e1a-be8a-37faac02d17b")
 		)
 		(instances
-			(project "t41_2_lpf_board_orthog"
+			(project "T41_2_lpf"
 				(path "/5fc700c6-272f-41b7-8650-23a96fb06ce8/25f7731c-bad8-4554-9b01-13138334dc1b"
 					(reference "C60")
 					(unit 1)
@@ -1292,7 +1292,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1200pF"
+		(property "Value" "${C2}"
 			(at 134.62 93.9735 0)
 			(effects
 				(font
@@ -1335,7 +1335,7 @@
 			(uuid "b36c2cd9-b7bd-4237-823f-7c3d3d13e5e5")
 		)
 		(instances
-			(project "t41_2_lpf_board_orthog"
+			(project "T41_2_lpf"
 				(path "/5fc700c6-272f-41b7-8650-23a96fb06ce8/25f7731c-bad8-4554-9b01-13138334dc1b"
 					(reference "C58")
 					(unit 1)
