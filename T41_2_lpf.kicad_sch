@@ -4249,18 +4249,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "16T 13T 16T"
-		(exclude_from_sim no)
-		(at 188.468 149.86 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "2686f3d2-db07-4321-bde1-b12d318d2a5c")
-	)
 	(text "TO RECEIVER"
 		(exclude_from_sim no)
 		(at 62.484 45.466 0)
@@ -4275,7 +4263,7 @@
 	)
 	(text "T44-2 TOROIDS"
 		(exclude_from_sim no)
-		(at 188.468 146.812 0)
+		(at 188.976 141.478 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -15173,8 +15161,8 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "a05637bf-a15f-4049-9008-ef35c10dfb92")
-		(property "Sheetname" "Filter"
+		(uuid "7b909bf3-3c8a-4eb7-a4a6-a203f06fad79")
+		(property "Sheetname" "Filter5"
 			(at 172.72 136.4484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15185,7 +15173,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Low_Pass_Filter.kicad_sch"
+		(property "Sheetfile" "Low_Pass_Filter_80M.kicad_sch"
 			(at 172.72 152.9846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15242,7 +15230,7 @@
 		)
 		(pin "Output" output
 			(at 207.01 143.51 0)
-			(uuid "9d8a5f70-46fd-4380-aea3-f7adbc63be20")
+			(uuid "d8b447d8-1e49-42ae-9fd9-c3379a62bfb3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15252,7 +15240,7 @@
 		)
 		(pin "Input" input
 			(at 172.72 143.51 180)
-			(uuid "45174a32-3441-4d28-af96-cd16f625ca66")
+			(uuid "eac380a8-25b8-432e-82de-8ee1f9a53b59")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15263,7 +15251,7 @@
 		(instances
 			(project "T41_2_lpf"
 				(path "/5fc700c6-272f-41b7-8650-23a96fb06ce8"
-					(page "3")
+					(page "8")
 				)
 			)
 		)
