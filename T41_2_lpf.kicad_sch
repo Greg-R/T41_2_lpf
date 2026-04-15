@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "T41-2 Low Pass Filter Board")
-		(date "2026-03-20")
-		(rev "V1.4")
+		(date "2026-04-15")
+		(rev "V1.5")
 	)
 	(lib_symbols
 		(symbol "4xxx:4002"
