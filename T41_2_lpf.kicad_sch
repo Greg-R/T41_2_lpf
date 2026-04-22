@@ -4249,6 +4249,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "12 TURNS #24"
+		(exclude_from_sim no)
+		(at 187.96 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "04781e20-2ced-4337-8ae9-8a9af5de4bf3")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 190.5 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "0e970f40-4d43-43b7-8757-005889ad0834")
+	)
 	(text "SMA connectors can be straight or 90 degree.\nUse the option which minimizes bends and cable lengths."
 		(exclude_from_sim no)
 		(at 46.99 32.766 0)
@@ -4275,7 +4298,7 @@
 	)
 	(text "T44-2 TOROIDS"
 		(exclude_from_sim no)
-		(at 189.23 146.558 0)
+		(at 189.23 140.97 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -4285,9 +4308,9 @@
 		)
 		(uuid "3830405f-bc01-4f56-8b39-a48fccc05ba2")
 	)
-	(text "T41-2 LOW PASS FILTER"
+	(text "T41-2 LOW PASS FILTER BOARD"
 		(exclude_from_sim no)
-		(at 105.41 71.12 0)
+		(at 52.578 100.838 0)
 		(effects
 			(font
 				(size 3 3)
@@ -4309,9 +4332,21 @@
 		)
 		(uuid "49384e75-28d4-4fa8-a27a-82c052ce898a")
 	)
+	(text "10 TURNS #24"
+		(exclude_from_sim no)
+		(at 188.468 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "585c161f-ffd6-4f23-9cf7-5954ef264bbd")
+	)
 	(text "ANTENNA RELAY"
 		(exclude_from_sim no)
-		(at 95.885 81.28 0)
+		(at 96.266 74.676 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4333,9 +4368,21 @@
 		)
 		(uuid "78003773-9e20-4efa-8e18-7ac6246bb284")
 	)
+	(text "8 TURNS #24"
+		(exclude_from_sim no)
+		(at 188.976 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "79ebf632-df5f-4131-9e8c-ea3ebaee657d")
+	)
 	(text "T37-6 TOROIDS"
 		(exclude_from_sim no)
-		(at 189.484 34.544 0)
+		(at 188.976 28.702 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -4344,6 +4391,41 @@
 			)
 		)
 		(uuid "7dd192b7-a853-4235-8b89-f135481fa62d")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 190.246 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "7f6e8cd2-bf08-4cc1-9f2d-0bc8db41400e")
+	)
+	(text "RECEIVER PATH HIGH-PASS FILTER"
+		(exclude_from_sim no)
+		(at 104.14 65.278 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "81e0b966-cb7b-4160-96f9-7d383d93ff00")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 189.992 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "855be010-d386-4ba4-a706-870fd894ed8c")
 	)
 	(text "T68-2"
 		(exclude_from_sim no)
@@ -4369,6 +4451,18 @@
 		)
 		(uuid "911eca41-8c1b-4e8e-ae81-895296e5ccae")
 	)
+	(text "18 TURNS #24"
+		(exclude_from_sim no)
+		(at 189.23 118.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "976f02a5-6de4-4229-a846-3b0b475c9c86")
+	)
 	(text "PANASONIC\n RELAYS"
 		(exclude_from_sim no)
 		(at 140.462 83.82 0)
@@ -4383,7 +4477,7 @@
 	)
 	(text "T37-6 TOROIDS"
 		(exclude_from_sim no)
-		(at 189.484 87.884 0)
+		(at 188.722 82.042 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -4405,6 +4499,18 @@
 		)
 		(uuid "a8af2859-0cad-473b-889a-6a9c04e4be22")
 	)
+	(text "17 TURNS #24"
+		(exclude_from_sim no)
+		(at 188.722 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b1eee3d1-9e29-4cfb-9e3a-bb6f7a2c4976")
+	)
 	(text "TO POWER AMPLIFIER"
 		(exclude_from_sim no)
 		(at 63.246 25.654 0)
@@ -4416,6 +4522,18 @@
 			)
 		)
 		(uuid "bc8aff86-22e5-4758-ba42-2bdeef42eef9")
+	)
+	(text "All filters are \"Uni-Coil\", with the same number of turns on all 3 toroids."
+		(exclude_from_sim no)
+		(at 196.342 158.496 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "bc8f3b17-f9d0-4e07-8601-11e524cf8a7a")
 	)
 	(text "80 METERS"
 		(exclude_from_sim no)
@@ -4464,7 +4582,7 @@
 	)
 	(text "This is a grounded header pin\nfor attaching a probe."
 		(exclude_from_sim no)
-		(at 44.45 113.284 0)
+		(at 41.91 127.254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4488,7 +4606,7 @@
 	)
 	(text "T37-6 TOROIDS"
 		(exclude_from_sim no)
-		(at 189.23 63.754 0)
+		(at 188.722 58.166 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -4522,6 +4640,41 @@
 		)
 		(uuid "de9f36bf-5981-4719-8886-bf1ac3e86643")
 	)
+	(text "PLEASE NOTE THIS RELAY IS ROTATED 180 DEGREES\nCOMPARED TO THE BAND SWITCHING RELAYS!"
+		(exclude_from_sim no)
+		(at 95.758 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 6 28 1)
+			)
+		)
+		(uuid "dfe96a64-fd80-48ea-82ff-2b8b0f1b09a7")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 184.404 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e03bf681-2ded-4be6-a6b0-5375cd7feb99")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 188.976 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e1fa36bf-a2df-4f3e-b997-e88ebf936afe")
+	)
 	(text "ANTENNA"
 		(exclude_from_sim no)
 		(at 254 38.1 0)
@@ -4536,7 +4689,7 @@
 	)
 	(text "T37-6 TOROIDS"
 		(exclude_from_sim no)
-		(at 189.23 117.348 0)
+		(at 189.23 111.76 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -5400,7 +5553,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 102.87) (xy 43.18 105.41)
+			(xy 40.64 116.84) (xy 40.64 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8028,10 +8181,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0217b11d-5585-4619-b474-3e6d5cfc9c7a")
 		(property "Reference" "Q6"
-			(at 113.03 92.7099 0)
+			(at 112.522 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8042,7 +8194,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GSD"
-			(at 113.03 95.2499 0)
+			(at 112.522 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11749,10 +11901,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8624a0a5-cd24-4630-a3f4-3acf4f4a2b7e")
 		(property "Reference" "C22"
-			(at 116.8463 81.28 90)
+			(at 120.65 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11762,7 +11913,7 @@
 			)
 		)
 		(property "Value" "1000pF"
-			(at 116.8463 83.82 90)
+			(at 122.428 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12644,7 +12795,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 43.18 102.87 0)
+		(at 40.64 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12655,7 +12806,7 @@
 		(fields_autoplaced yes)
 		(uuid "b10e042f-31ce-413d-9d64-0c6901d2f70a")
 		(property "Reference" "TP1"
-			(at 45.72 98.2979 0)
+			(at 43.18 112.2679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12666,7 +12817,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 45.72 100.8379 0)
+			(at 43.18 114.8079 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12677,7 +12828,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 48.26 102.87 0)
+			(at 45.72 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12688,7 +12839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 102.87 0)
+			(at 45.72 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12699,7 +12850,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 43.18 102.87 0)
+			(at 40.64 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13998,7 +14149,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 105.41 0)
+		(at 40.64 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14008,7 +14159,7 @@
 		(dnp no)
 		(uuid "ea1733d9-0fca-488b-8231-1e4c17121b1d")
 		(property "Reference" "#PWR037"
-			(at 43.18 111.76 0)
+			(at 40.64 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14019,7 +14170,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 109.22 0)
+			(at 40.64 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14029,7 +14180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 105.41 0)
+			(at 40.64 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14040,7 +14191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 105.41 0)
+			(at 40.64 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14051,7 +14202,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 105.41 0)
+			(at 40.64 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14795,7 +14946,7 @@
 				)
 			)
 		)
-		(property "C2" "390pF"
+		(property "C2" "300pF"
 			(at 172.72 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -14806,7 +14957,7 @@
 				)
 			)
 		)
-		(property "C3" "390pF"
+		(property "C3" "300pF"
 			(at 172.72 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15000,7 +15151,7 @@
 				(justify left top)
 			)
 		)
-		(property "C1" "680pF"
+		(property "C1" "510pF"
 			(at 172.72 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15011,7 +15162,7 @@
 				)
 			)
 		)
-		(property "C2" "1800pF"
+		(property "C2" "1100pF"
 			(at 172.72 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15022,7 +15173,7 @@
 				)
 			)
 		)
-		(property "C3" "1800pF"
+		(property "C3" "1100pF"
 			(at 172.72 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15033,7 +15184,7 @@
 				)
 			)
 		)
-		(property "C4" "680pF"
+		(property "C4" "510pF"
 			(at 172.72 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15110,7 +15261,7 @@
 				(justify left top)
 			)
 		)
-		(property "C1" "270pF"
+		(property "C1" "300pF"
 			(at 172.72 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15121,7 +15272,7 @@
 				)
 			)
 		)
-		(property "C2" "820pF"
+		(property "C2" "560pF"
 			(at 172.72 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15132,7 +15283,7 @@
 				)
 			)
 		)
-		(property "C3" "820pF"
+		(property "C3" "560pF"
 			(at 172.72 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15143,7 +15294,7 @@
 				)
 			)
 		)
-		(property "C4" "270pF"
+		(property "C4" "300pF"
 			(at 172.72 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15220,7 +15371,7 @@
 				(justify left top)
 			)
 		)
-		(property "C1" "1300pF"
+		(property "C1" "1000pF"
 			(at 172.72 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15231,7 +15382,7 @@
 				)
 			)
 		)
-		(property "C2" "3600pF"
+		(property "C2" "1000pF"
 			(at 172.72 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15242,7 +15393,7 @@
 				)
 			)
 		)
-		(property "C3" "3600pF"
+		(property "C3" "1000pF"
 			(at 172.72 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15253,7 +15404,51 @@
 				)
 			)
 		)
-		(property "C4" "1300pF"
+		(property "C4" "1000pF"
+			(at 172.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "C1b" "430pF"
+			(at 172.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "C4b" "430pF"
+			(at 172.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "C2b" "1500pF"
+			(at 172.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "C3b" "1500pF"
 			(at 172.72 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15330,7 +15525,7 @@
 				(justify left top)
 			)
 		)
-		(property "C1" "180pF"
+		(property "C1" "200pF"
 			(at 172.72 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15341,7 +15536,7 @@
 				)
 			)
 		)
-		(property "C2" "510pF"
+		(property "C2" "360pF"
 			(at 172.72 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15352,7 +15547,7 @@
 				)
 			)
 		)
-		(property "C3" "510pF"
+		(property "C3" "360pF"
 			(at 172.72 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15363,7 +15558,7 @@
 				)
 			)
 		)
-		(property "C4" "180pF"
+		(property "C4" "200pF"
 			(at 172.72 54.61 0)
 			(hide yes)
 			(show_name no)

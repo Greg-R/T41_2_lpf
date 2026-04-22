@@ -1039,7 +1039,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "${C1}"
+		(property "Value" "${C1b}"
 			(at 106.68 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1201,7 +1201,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "${C4}"
+		(property "Value" "${C4b}"
 			(at 190.5 93.9735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1520,7 +1520,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "${C3}"
+		(property "Value" "${C3b}"
 			(at 162.306 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1765,7 +1765,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "${C2}"
+		(property "Value" "${C2b}"
 			(at 134.62 93.9735 0)
 			(show_name no)
 			(do_not_autoplace no)

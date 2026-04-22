@@ -455,42 +455,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "T44-2 TOROIDS"
-		(exclude_from_sim no)
-		(at 21.9286 14.104 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-		)
-		(uuid "3abbb964-809d-4f29-8661-020d3e2cbeec")
-	)
-	(text "T44-2 TOROIDS"
-		(exclude_from_sim no)
-		(at 15.5786 7.754 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-		)
-		(uuid "843d3852-ee01-4c81-b59d-9ffbfedc1afb")
-	)
-	(text "T44-2 TOROIDS"
-		(exclude_from_sim no)
-		(at 9.2286 1.404 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-		)
-		(uuid "9e28e5ae-8cf8-4fb9-af1a-67b3dbddcc4f")
-	)
 	(junction
 		(at 132.08 97.79)
 		(diameter 0)
@@ -742,54 +706,6 @@
 			(type default)
 		)
 		(uuid "f6ee7d9d-1320-4c9c-91ed-f53f7dee3d46")
-	)
-	(label "16T 13T 16T"
-		(at 7.9586 11.818 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a912ea2-ccc1-4d92-b5e7-30a686195c01")
-	)
-	(label "16T 13T 16T"
-		(at 1.6086 5.468 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a251adb-0862-4c94-91f3-fd53c767dc7a")
-	)
-	(label "16T 13T 16T"
-		(at 19.35 21.975 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a737c903-f37a-4e84-b2ca-0468661de63a")
-	)
-	(label "16T 13T 16T"
-		(at 14.3086 18.168 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e189eb7b-ba5b-47ea-a80d-a5a4e7d0d1ec")
 	)
 	(hierarchical_label "Output"
 		(shape output)
