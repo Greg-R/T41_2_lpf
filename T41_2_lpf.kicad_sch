@@ -4677,7 +4677,7 @@
 	)
 	(text "ANTENNA"
 		(exclude_from_sim no)
-		(at 254 38.1 0)
+		(at 256.54 37.846 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4776,6 +4776,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e9bb818-79e5-48f2-8e78-ef625fc80a20")
+	)
+	(junction
+		(at 245.11 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20115a4c-7ee1-4510-8069-43c1c1439ee6")
 	)
 	(junction
 		(at 148.59 78.74)
@@ -5773,7 +5779,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 22.86) (xy 248.92 22.86)
+			(xy 241.3 22.86) (xy 245.11 22.86)
 		)
 		(stroke
 			(width 0)
@@ -5943,6 +5949,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 30.48) (xy 245.11 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542549df-bed2-4619-b053-905f704b7dfb")
+	)
+	(wire
+		(pts
 			(xy 214.63 124.46) (xy 209.55 124.46)
 		)
 		(stroke
@@ -6093,6 +6109,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 22.86) (xy 248.92 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb38aa5-769d-4b1f-9eda-aea3ffbab417")
+	)
+	(wire
+		(pts
 			(xy 163.83 115.57) (xy 157.48 115.57)
 		)
 		(stroke
@@ -6140,6 +6166,16 @@
 			(type default)
 		)
 		(uuid "63344915-447e-4fd0-98d3-d802fbc17a8a")
+	)
+	(wire
+		(pts
+			(xy 245.11 22.86) (xy 245.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635f6078-e856-4b33-9aba-b56d074c95f6")
 	)
 	(wire
 		(pts
@@ -10764,6 +10800,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 245.11 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "672cf9ba-b7ee-4d84-a83d-81dfdb1e0a72")
+		(property "Reference" "#PWR07"
+			(at 245.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76c8f083-5388-4990-b0d3-269d49a53047")
+		)
+		(instances
+			(project "T41_2_lpf"
+				(path "/5fc700c6-272f-41b7-8650-23a96fb06ce8"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 143.51 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -13985,6 +14099,85 @@
 			(project "T41_2_lpf"
 				(path "/5fc700c6-272f-41b7-8650-23a96fb06ce8"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 245.11 27.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc3785e9-09af-46fc-b33c-ea88752141c1")
+		(property "Reference" "R7"
+			(at 241.554 26.924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 241.3 29.718 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 245.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 245.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a50f7eb0-ea7d-4d18-9ded-848f3739105a")
+		)
+		(pin "1"
+			(uuid "bfed09ef-206a-4aeb-99ec-2a719dec1001")
+		)
+		(instances
+			(project "T41_2_lpf"
+				(path "/5fc700c6-272f-41b7-8650-23a96fb06ce8"
+					(reference "R7")
 					(unit 1)
 				)
 			)

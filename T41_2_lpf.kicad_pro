@@ -532,7 +532,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
+      "plot": "doc/",
       "pos_files": "",
       "specctra_dsn": "T41_2_lpf.dsn",
       "step": "",
