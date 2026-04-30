@@ -4308,6 +4308,19 @@
 		)
 		(uuid "3830405f-bc01-4f56-8b39-a48fccc05ba2")
 	)
+	(text "Connector J4 is NOT REQUIRED\nfor T41-2 and T41-3."
+		(exclude_from_sim no)
+		(at 64.008 175.006 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 10 42 1)
+			)
+		)
+		(uuid "40cf94c1-7144-404d-a3c3-3488ddc422fa")
+	)
 	(text "T41-2 LOW PASS FILTER BOARD"
 		(exclude_from_sim no)
 		(at 52.578 100.838 0)
@@ -4924,6 +4937,14 @@
 		(uuid "1d44f210-2774-4b8b-9d4a-419963a13b30")
 	)
 	(no_connect
+		(at 22.86 173.99)
+		(uuid "1fb1ff7e-5a24-46be-8195-3c9e1b17017e")
+	)
+	(no_connect
+		(at 35.56 173.99)
+		(uuid "23f023a8-31bf-4cbe-955a-c69218d2e236")
+	)
+	(no_connect
 		(at 116.84 30.48)
 		(uuid "29f7bd64-903e-43ec-aa46-12bc53413ee7")
 	)
@@ -5286,16 +5307,6 @@
 			(type default)
 		)
 		(uuid "12f8a51c-fec0-493f-90c4-29bf0ae83e03")
-	)
-	(wire
-		(pts
-			(xy 35.56 173.99) (xy 38.1 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14aedec7-d101-4c0f-8009-66c50a68c6de")
 	)
 	(wire
 		(pts
@@ -6759,16 +6770,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 173.99) (xy 22.86 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99165ef0-42d8-4d9f-b635-9b33475693f0")
-	)
-	(wire
-		(pts
 			(xy 100.33 129.54) (xy 105.41 129.54)
 		)
 		(stroke
@@ -7835,16 +7836,6 @@
 		)
 		(uuid "5cff4cc3-3808-4868-ae1c-dc6d83cfe41a")
 	)
-	(label "SDA"
-		(at 16.51 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d2e8422-490d-40c6-9297-55148102516e")
-	)
 	(label "TXRX"
 		(at 44.45 153.67 0)
 		(effects
@@ -8088,6 +8079,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -8162,16 +8155,6 @@
 			(justify left bottom)
 		)
 		(uuid "e180e70d-3669-4627-96a8-4192d62dadb2")
-	)
-	(label "SCL"
-		(at 38.1 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3106184-c87b-45ae-af39-ea0cf46b8b24")
 	)
 	(label "10M_ON"
 		(at 60.96 62.23 0)
@@ -12502,7 +12485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1.0uF"
 			(at 90.17 171.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13087,7 +13070,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1.0uF"
 			(at 63.5 194.3162 0)
 			(show_name no)
 			(do_not_autoplace no)
