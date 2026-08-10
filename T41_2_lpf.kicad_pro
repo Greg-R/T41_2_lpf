@@ -761,7 +761,7 @@
         "uuid": "5fc700c6-272f-41b7-8650-23a96fb06ce8"
       }
     ],
-    "used_designators": "#PWR50,C70",
+    "used_designators": "C70,#PWR50",
     "variants": []
   },
   "sheets": [
